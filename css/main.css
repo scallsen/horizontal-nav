@@ -1,7 +1,52 @@
 html {
+  font-family: "Helvetica", sans-serif;
+  background-color: #dbd6d0;
+  color: white;
 
 }
 
 h1 {
   font-family: "Bevan", serif;
+  color: white;
+}
+
+header {
+  background-color: #79766f;
+}
+
+body {
+  margin: 0;
+}
+
+.navbox {
+  width: 100%;
+  max-width: 50em;
+  min-width: 2em;
+  display: block;
+  text-align: center;
+  border: 2px solid #4b4841;
+}
+
+.navbox ul {
+  padding: 0;
+}
+
+.navbox ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: .75rem;
+  border: 1px solid #713837;
+  background-color: #713837;
+  border-radius: 10px;
+}
+
+.navbox ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbox ul :hover {
+  border: 1px solid #ff332a;
+  border-radius: 10px;
+  background-color: #ff332a;
 }
